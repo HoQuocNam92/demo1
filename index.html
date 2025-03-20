@@ -16,11 +16,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="assets/style/responsive.css">
+
     <title>Demo 1</title>
 </head>
 
 <body>
     <div id="main">
+        <!-- Header -->
         <div id="header">
             <div class="header-section">
                 <div class="header-top">
@@ -53,6 +56,9 @@
                 <div class="header-bottom">
                     <div class="logo">
                         <img src="./images/logo (1).png " alt="">
+                    </div>
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
                     </div>
                     <div class="icons">
                         <a class="search-icon d-none d-md-block special-header " href="#"><i
@@ -206,7 +212,7 @@
             <!-- About -->
             <div class="about">
                 <div class="container">
-                    <div class="about-content">
+                    <div class="about-content" data-aos="fade-right" data-aos-delay="600" data-aos-duration="800">
                         <h6 class="title-about">ABOUT TAMPLATE</h6>
                         <div class="about-text">
                             <h1 class="text-title">A RICH FEATURED, EPIC<br>& PREMIUM WORK.</h1>
@@ -243,11 +249,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about-images">
-                        <div class="img-large">
+                    <div class="about-images" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+                        <div class="  img-large">
                             <img src="./images/featured-img1.jpg" alt="Featured Image 1">
                         </div>
-                        <div class="img-small">
+                        <div class="  img-small">
                             <img src="./images/featured-img2.jpg" alt="Featured Image 2">
                         </div>
                     </div>
@@ -280,7 +286,7 @@
                                 <img src="/images/post1.jpg" alt="Recent Post 1">
                             </div>
                         </div>
-                        <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="400" class="item">
+                        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="400" class="item">
                             <div class="item-img item-img-special">
                                 <img src="/images/post2.jpg" alt="Recent Post 1">
                             </div>
@@ -301,7 +307,7 @@
                             </div>
 
                         </div>
-                        <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="400" class="item">
+                        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="400" class="item">
                             <div class="item-text item-special">
                                 <time datetime="">15 Oct, 2019
                                 </time>
@@ -324,7 +330,7 @@
                             </div>
 
                         </div>
-                        <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="400" class="item">
+                        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="400" class="item">
                             <div class="item-img item-img-special">
                                 <img src="/images/post4.jpg" alt="Recent Post 1">
                             </div>
@@ -395,14 +401,191 @@
                     </div>
                 </div>
             </div>
+            <!-- Table -->
+            <div class="table">
+                <div class="container-section">
+                    <div class="text-table">
+                        <h6>OUR PRICES</h6>
+                        <h1>Price Table List</h1>
+                    </div>
+                    <div class="table-section">
+                        <div class="table">
+                            <div class="card" data-aos="fade-up" data-aos-delay="00">
+                                <span>Monthly</span>
+                                <h2>Starter</h2>
+                                <p class="desc">Here goes some description</p>
+                                <p class="price">$39.00</p>
+                                <p class="text-create">Create excepteur sint occaecat cupidatat non proident</p>
+                                <a href="#">BUY NOW</a>
+                                <svg viewBox="0 0 170 193">
+                                    <path fill-rule="evenodd" fill="rgb(238, 21, 21)"
+                                        d="M39.000,31.999 C39.000,31.999 -21.000,86.500 9.000,121.999 C39.000,157.500 91.000,128.500 104.000,160.999 C117.000,193.500 141.000,201.000 150.000,183.000 C159.000,165.000 172.000,99.000 167.000,87.000 C162.000,75.000 170.000,63.000 152.000,45.000 C134.000,27.000 128.000,15.999 116.000,11.000 C104.000,6.000 89.000,-0.001 89.000,-0.001 L39.000,31.999 Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="table">
+                            <div class="card" data-aos="fade-up" data-aos-delay="300">
+                                <span>Monthly</span>
+                                <h2>Starter</h2>
+                                <p class="desc">Here goes some description</p>
+                                <p class="price">$39.00</p>
+                                <p class="text-create">5GB Storage Space
+
+                                </p>
+                                <p class="text-create">20GB Monthly Bandwidth
+
+                                </p>
+                                <p class="text-create">My SQL Databases
+
+                                </p>
+                                <p class="text-create">100 Email Account
+
+                                </p>
+                                <a href="#">BUY NOW</a>
+
+                                <svg viewBox="0 0 170 193">
+                                    <path fill-rule="evenodd" fill="rgb(238, 21, 21)"
+                                        d="M39.000,31.999 C39.000,31.999 -21.000,86.500 9.000,121.999 C39.000,157.500 91.000,128.500 104.000,160.999 C117.000,193.500 141.000,201.000 150.000,183.000 C159.000,165.000 172.000,99.000 167.000,87.000 C162.000,75.000 170.000,63.000 152.000,45.000 C134.000,27.000 128.000,15.999 116.000,11.000 C104.000,6.000 89.000,-0.001 89.000,-0.001 L39.000,31.999 Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="table">
+                            <div class="card" data-aos="fade-up" data-aos-delay="600">
+                                <span>Monthly</span>
+                                <h2>Starter</h2>
+                                <p class="desc">Here goes some description</p>
+                                <p class="price">$39.00</p>
+                                <p class="text-create">Create excepteur sint occaecat cupidatat non proident</p>
+                                <a href="#">BUY NOW</a>
+                                <svg viewBox="0 0 170 193">
+                                    <path fill-rule="evenodd" fill="rgb(238, 21, 21)"
+                                        d="M39.000,31.999 C39.000,31.999 -21.000,86.500 9.000,121.999 C39.000,157.500 91.000,128.500 104.000,160.999 C117.000,193.500 141.000,201.000 150.000,183.000 C159.000,165.000 172.000,99.000 167.000,87.000 C162.000,75.000 170.000,63.000 152.000,45.000 C134.000,27.000 128.000,15.999 116.000,11.000 C104.000,6.000 89.000,-0.001 89.000,-0.001 L39.000,31.999 Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial -->
+            <div class="testimonial">
+                <div class="container">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-section">
+                                    <div class="test-img">
+                                        <img src="images/test1.png" alt="Testimonial 1">
+                                    </div>
+                                    <h5>John</h5>
+                                    <span>UI/UX Designer</span>
+                                    <p>
+                                        Ash's tactics & books have helped me a lot in my understanding on how social
+                                        media
+                                        advertising works. I can say that he is one of the best development
+                                        professionals I have
+                                        dealt with so far. His experience is great & he is such a great & pleasant
+                                        person to
+                                        work with as he understands what you are
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-section">
+                                    <div class="test-img">
+                                        <img src="images/test1.png" alt="Testimonial 2">
+                                    </div>
+                                    <h5>Sarah</h5>
+                                    <span>Web Developer</span>
+                                    <p>
+                                        Ash's tactics & books have helped me a lot in my understanding on how social
+                                        media
+                                        advertising works. I can say that he is one of the best development
+                                        professionals I have
+                                        dealt with so far. His experience is great & he is such a great & pleasant
+                                        person to
+                                        work with as he understands what you are
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brands -->
+
         </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="main.js"></script>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-widget">
+                        <h3>About Us</h3>
+                        <p>Welcome to our restaurant! We take pride in serving delicious meals made with the finest
+                            ingredients. Our commitment to quality and service makes us a preferred dining destination.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget">
+                        <h3>Quick Links</h3>
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Reservations</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-widget">
+                        <h3>Opening Hours</h3>
+                        <div class="footer-links">
+                            <ul>
+                                <li>Monday - Friday</li>
+                                <li>9:00 AM - 10:00 PM</li>
+                                <li>Saturday - Sunday</li>
+                                <li>10:00 AM - 11:00 PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-widget">
+                        <h3>Contact Info</h3>
+                        <div class="footer-contact">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>123 Restaurant Street, City, Country</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <span>+1 234 567 890</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <span>info@restaurant.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Restaurant. All rights reserved | Designed by <a href="#">Your Name</a></p>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
 </body>
 
 </html>

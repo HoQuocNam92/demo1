@@ -1,0 +1,180 @@
+@media (max-width: 767px) {
+
+
+
+    .menu-toggle {
+        display: block;
+
+    }
+
+    #content {
+        padding: 80px 8px 0 8px;
+    }
+
+    #footer {
+        padding: 0 8px !important;
+    }
+
+    #header {
+        background-color: transparent;
+    }
+
+
+    #hero {
+        margin: 0 8px;
+    }
+
+    .hero-container {
+        position: initial;
+    }
+
+    .header-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    .menu-toggle {
+        padding: 8px 32px;
+    }
+
+    .header-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .navbar-nav {
+        display: none;
+
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .services-container {
+        display: block;
+    }
+
+    .container {
+        display: block;
+
+    }
+
+    .about-content {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .about-images {
+        display: block;
+        width: 100%;
+
+    }
+
+    .img-large {
+        position: initial;
+    }
+
+    .img-large img {
+        width: 100%;
+
+    }
+
+    .items-layout {
+        display: block;
+
+    }
+
+    .brands-list {
+        display: none;
+    }
+
+    .item-img img {
+        width: 100%;
+    }
+
+    .trust {
+        position: initial;
+        width: 100%;
+    }
+
+    .trust-section {
+        display: block;
+    }
+
+    .trust-image {
+        position: initial;
+
+    }
+
+    .trust-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .table-section {
+        display: block;
+    }
+
+    .footer-content {
+        display: block;
+
+    }
+
+    .footer-container {
+        padding: 0;
+        width: 100%;
+
+    }
+
+    .testimonial .swiper-slide {
+        display: block;
+    }
+
+    .testimonial .container {
+        padding: 0;
+
+    }
+
+    .services-section {
+        padding: 0;
+    }
+
+    .container,
+    .container-section {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .hero-section {
+
+        width: 100%;
+    }
+
+    .trust-image {}
+
+    .trust-image .image-item {
+        width: 100%;
+    }
+
+    .item {
+        display: block;
+        padding: 0;
+    }
+
+    .item-img-special {
+        margin: 0;
+
+    }
+
+    .item-text {
+
+        display: block;
+    }
+}
